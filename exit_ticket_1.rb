@@ -6,9 +6,12 @@ things_i_like = ["Tesla Model S", "Tesla Model 3", "Tesla Model X", "Ford Model 
 # Add an element to the end of your array
  things_i_like.push("Airpods")
 # Add an element to index 2
-puts things_i_like.insert(2, "Tesla Model Roadseter")
+ things_i_like.insert(2, "Tesla Model Roadseter")
 # Remove the first element from your array
+things_i_like.delete_at(0)
+things_i_like
 # Remove any duplicates that may exist in your array
+
 # Create a second array with 3 elements
 # "Sqash" the two arrays together
 
