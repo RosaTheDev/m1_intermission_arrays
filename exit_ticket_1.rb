@@ -13,6 +13,7 @@ things_i_like
 # Remove any duplicates that may exist in your array
  things_i_like.uniq
 # Create a second array with 3 elements
+things_i_hate = ["chicago style pizza", "rasion cookies", "Richard"]
 # "Sqash" the two arrays together
 
 # BONUS since we didn't cover today 🦄
