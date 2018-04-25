@@ -21,8 +21,11 @@ new_hedgies = ["Mooshi", "Monkey"]
 hedgies[3]
 #this is calling upon the hedgies array, and also searching for the third index, since arrays begin at 0 then the third index would be "Ernie"
 hedgies.empty?
+#this is calling upon the hedgies array, and it is trying to check if the array is empty, but the array is not empty therefore it would be returned as false
 hedgies.at[5]
+#I had to look this one up, but headgies.at would return an error because it is using the brackets to call the fifth index, the coorrect way to do it would be to replace the brackets with parentheses
 hedgies.unshift("Bella")
+#hedhies.unshift takes the string "Bella" and moves it to the beginning of the array and motifying the original array
 hedgies.insert(6, "Onyx")
 hedgies.compact
 hedgies.pop
