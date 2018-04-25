@@ -14,9 +14,12 @@ pet.length
 # YOUR TURN:
 
 hedgies = ["Alvin", "Bagel", "Bella", "Ernie", "Kalua", "Margo", "Murphy", "Pino", "Spike", "Trix"]
+#declared a variable named hedgies, that vairable is set to an array of strings
 new_hedgies = ["Mooshi", "Monkey"]
+#there is another variable named new_hedgies and it is also set to an array of strings
 
 hedgies[3]
+#this is calling upon the hedgies array, and also searching for the third index, since arrays begin at 0 then the third index would be "Ernie"
 hedgies.empty?
 hedgies.at[5]
 hedgies.unshift("Bella")
