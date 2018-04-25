@@ -22,7 +22,7 @@ hedgies[3]
 #this is calling upon the hedgies array, and also searching for the third index, since arrays begin at 0 then the third index would be "Ernie"
 hedgies.empty?
 #this is calling upon the hedgies array, and it is trying to check if the array is empty, but the array is not empty therefore it would be returned as false
-hedgies.at[5]
+# hedgies.at[5]
 #I had to look this one up, but headgies.at would return an error because it is using the brackets to call the fifth index, the coorrect way to do it would be to replace the brackets with parentheses
 hedgies.unshift("Bella")
 #hedgies.unshift takes the string "Bella" and moves it to the beginning of the array and motifying the original array
@@ -37,14 +37,19 @@ hedgies.fetch(0)
 hedgies.include?("Bagel")
 #returns true because the string "Bagel" is in the array
 hedgies.shift
+#retuns the first element in the array and deletes it, motifying the original array
 hedgies.push("Toast")
+#adds the string "Toast" to the end of the hedgies array
 hedgies << "Rocky"
+#adds the string "Rocky" to the end of the hedgies array
 hedgies.count
 # also, what is at least one other way to accomplish this?
+#the other way to count the elements in the array would be to use .size
 hedgies.uniq!
 # also, how would this be different if we omitted the "!"?
-hedgies.concat(new_hedgies)
-
+#if you just use .uniq it would just delete the doubles in the array
+  hedgies.concat(new_hedgies)
+#mashes together both of the arrays
 # BONUS since we didn't cover today 🦄
 hedgies.each do |hedgie|
   puts hedgie
