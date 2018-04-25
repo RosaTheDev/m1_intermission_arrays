@@ -25,12 +25,17 @@ hedgies.empty?
 hedgies.at[5]
 #I had to look this one up, but headgies.at would return an error because it is using the brackets to call the fifth index, the coorrect way to do it would be to replace the brackets with parentheses
 hedgies.unshift("Bella")
-#hedhies.unshift takes the string "Bella" and moves it to the beginning of the array and motifying the original array
+#hedgies.unshift takes the string "Bella" and moves it to the beginning of the array and motifying the original array
 hedgies.insert(6, "Onyx")
+#calls the hedgies array, and it inserts the "Onyx" string into the sixth index of the array motifying the original aray
 hedgies.compact
+#removes the copies in the array
 hedgies.pop
+#deletes the last element in the array and motifies the original array
 hedgies.fetch(0)
+#returns the element in the array that has been called in the parameters
 hedgies.include?("Bagel")
+#returns true because the string "Bagel" is in the array
 hedgies.shift
 hedgies.push("Toast")
 hedgies << "Rocky"
